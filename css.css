@@ -1,0 +1,201 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  font-size: 25px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: 0.7s;
+  border: none;
+}
+button:hover {
+  background: white;
+  color: black;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+}
+.global-heading {
+  text-align: center;
+  margin: 7px;
+  padding: 5px;
+}
+.global-heading h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  padding-bottom: 3px;
+}
+.global-heading p {
+  font-size: 18px;
+  color: rgb(109, 96, 96);
+}
+
+/* Header Section */
+header {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+}
+.main-menu1 ul li {
+  display: inline;
+  margin-right: 11px;
+}
+header p {
+  font-size: 18px;
+  color: white;
+}
+
+/* Content */
+.content-section {
+  background-image: url(/images/normal5-modified.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10rem 0;
+  color: white;
+  text-align: center;
+}
+.content-section h2 {
+  font-size: 39px;
+  color: white;
+}
+.content-section p {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* About section */
+.about-section {
+  margin: 25px;
+  padding: 25px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.about-text {
+  margin: 5px;
+  padding: 5px;
+  text-align: justify;
+}
+.about-text h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  padding-bottom: 2px;
+}
+.about-text p {
+  font-size: 18px;
+  color: rgb(109, 96, 96);
+  width: 610px;
+  height: 80px;
+}
+.about-text button:hover {
+  background: white;
+  color: black;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+/* Service Section */
+
+.service-section {
+  margin: 10px;
+  padding: 8px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.content {
+  padding: 45px;
+  text-align: center;
+}
+i {
+  font-size: 50px;
+  padding: 5px;
+}
+
+/* Work Section */
+
+.work-section {
+  margin: 20px;
+  padding: 20px;
+}
+.work-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.work-content {
+  padding: 15px;
+  text-align: center;
+}
+img {
+  width: 250px;
+  height: 180px;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Testimonial Section */
+
+.testimonial-section {
+  margin: 20px;
+  padding: 20px;
+}
+.testimonial-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
+/* Contact Section */
+
+.contact-section {
+  margin: 25px;
+  padding: 25px;
+}
+form {
+  margin: 25px 35%;
+  padding: 5px;
+}
+form input,
+textarea {
+  width: 340px;
+}
+.submit-button {
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: 0.7s;
+  border: none;
+  width: 140px;
+}
+.submit-button:hover {
+  background: white;
+  color: black;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+/* Footer Section */
+footer {
+  background-color: black;
+  color: white;
+  height: 3rem;
+  text-align: center;
+}
+footer p {
+  padding: 15px;
+}
